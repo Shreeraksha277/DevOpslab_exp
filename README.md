@@ -1,4 +1,4 @@
-# ðŸš€ DevOps Laboratory Experiments 
+# 🚀 DevOps Laboratory Experiments 
 
 <div align="center">
 
@@ -24,84 +24,84 @@
 
 ---
 
-## ðŸ“– Course Overview
+## 📖 Course Overview
 - **Course Title:** DevOps Laboratory / DevOps Tools & Techniques (DTT)
 - **Course Outcome:** **P405.1** - Apply modern DevOps practices including Distributed Version Control, Automated Build Systems, Containerization, Configuration Management, and Continuous Integration & Deployment (CI/CD) pipelines.
 - **Repository Maintainer:** **Hari Saravanan M** ([@harisaravananm](https://github.com/harisaravananm))
 
 ---
 
-## ðŸ“‘ Index of Experiments
+## 📑 Index of Experiments
 
 | Ex. No | Experiment Title | Primary Tools | Directory Link | Status |
 |:---:|:---|:---:|:---:|:---:|
-| **01** | **Git Version Control & Branch Management**<br>_Initializing, cloning, staging, committing, pushing, and branching._ | `Git`, `CLI` | [ðŸ“‚ Experiment-01-Git](./Experiment-01-Git) | âœ… Completed |
-| **02** | **Apache Maven & Java Project Setup**<br>_Installing Maven, standard project hierarchy, `pom.xml`, compile, test, package._ | `Maven`, `Java 17`, `JUnit` | [ðŸ“‚ Experiment-02-Maven](./Experiment-02-Maven) | âœ… Completed |
-| **03** | **Docker Container Installation & Management**<br>_Pulling images, running containers, interactive shells, resource management._ | `Docker`, `Docker Desktop`, `Alpine` | [ðŸ“‚ Experiment-03-Docker](./Experiment-03-Docker) | âœ… Completed |
-| **04** | **Ansible YAML Playbook Automation**<br>_Inventory creation, declarative playbooks, tasks, variables, and idempotency._ | `Ansible`, `YAML`, `Python` | [ðŸ“‚ Experiment-04-Ansible](./Experiment-04-Ansible) | âœ… Completed |
-| **05** | **Jenkins CI/CD Pipeline (Maven + Docker)**<br>_Declarative pipeline with Checkout, Maven Build, and Docker Image creation._ | `Jenkins`, `Maven`, `Docker` | [ðŸ“‚ Experiment-05-Jenkins](./Experiment-05-Jenkins) | âœ… Completed |
-| **06** | **GitHub Account, Repository Creation & App Push**<br>_Remote hosting, Personal Access Tokens, local-to-remote tracking, verification._ | `GitHub`, `Git`, `Java` | [ðŸ“‚ Experiment-06-GitHub](./Experiment-06-GitHub) | âœ… Completed |
-| **07** | **Building Application Using Gradle**<br>_Gradle DSL, application plugin, tasks execution, dependency management, JAR build._ | `Gradle`, `Groovy DSL`, `Java` | [ðŸ“‚ Experiment-07-Gradle](./Experiment-07-Gradle) | âœ… Completed |
+| **01** | **Git Version Control & Branch Management**<br>_Initializing, cloning, staging, committing, pushing, and branching._ | `Git`, `CLI` | [📂 Experiment-01-Git](./Experiment-01-Git) | ✅ Completed |
+| **02** | **Apache Maven & Java Project Setup**<br>_Installing Maven, standard project hierarchy, `pom.xml`, compile, test, package._ | `Maven`, `Java 17`, `JUnit` | [📂 Experiment-02-Maven](./Experiment-02-Maven) | ✅ Completed |
+| **03** | **Docker Container Installation & Management**<br>_Pulling images, running containers, interactive shells, resource management._ | `Docker`, `Docker Desktop`, `Alpine` | [📂 Experiment-03-Docker](./Experiment-03-Docker) | ✅ Completed |
+| **04** | **Ansible YAML Playbook Automation**<br>_Inventory creation, declarative playbooks, tasks, variables, and idempotency._ | `Ansible`, `YAML`, `Python` | [📂 Experiment-04-Ansible](./Experiment-04-Ansible) | ✅ Completed |
+| **05** | **Jenkins CI/CD Pipeline (Maven + Docker)**<br>_Declarative pipeline with Checkout, Maven Build, and Docker Image creation._ | `Jenkins`, `Maven`, `Docker` | [📂 Experiment-05-Jenkins](./Experiment-05-Jenkins) | ✅ Completed |
+| **06** | **GitHub Account, Repository Creation & App Push**<br>_Remote hosting, Personal Access Tokens, local-to-remote tracking, verification._ | `GitHub`, `Git`, `Java` | [📂 Experiment-06-GitHub](./Experiment-06-GitHub) | ✅ Completed |
+| **07** | **Building Application Using Gradle**<br>_Gradle DSL, application plugin, tasks execution, dependency management, JAR build._ | `Gradle`, `Groovy DSL`, `Java` | [📂 Experiment-07-Gradle](./Experiment-07-Gradle) | ✅ Completed |
 
 ---
 
-## ðŸ“ Repository Directory Structure
+## 📁 Repository Directory Structure
 
 ```text
 DevOpslab_exp/
-â”œâ”€â”€ docs/                                   # Official College Manuals & Expected Outputs
-â”‚   â”œâ”€â”€ DTT lab manual 2026-27 final rec.pdf
-â”‚   â”œâ”€â”€ DTT lab manual 2026-27.docx
-â”‚   â””â”€â”€ DevOps_2026_27_Experiment_Outputs.docx
-â”‚
-â”œâ”€â”€ Experiment-01-Git/                      # Ex 1: Git Version Control
-â”‚   â”œâ”€â”€ README.md                           # Comprehensive guide & verified outputs
-â”‚   â”œâ”€â”€ git_demo.sh                         # Linux/Git Bash automation script
-â”‚   â”œâ”€â”€ git_demo.bat                        # Windows CMD automation script
-â”‚   â””â”€â”€ sample-project/                     # Demo project with sample code & .gitignore
-â”‚
-â”œâ”€â”€ Experiment-02-Maven/                    # Ex 2: Apache Maven
-â”‚   â”œâ”€â”€ README.md                           # Step-by-step procedure & output logs
-â”‚   â”œâ”€â”€ pom.xml                             # Configured Maven POM with plugins & dependencies
-â”‚   â”œâ”€â”€ build.bat / build.sh                # 1-Click build & test runner scripts
-â”‚   â””â”€â”€ src/                                # Application code (main) & unit tests (test)
-â”‚
-â”œâ”€â”€ Experiment-03-Docker/                   # Ex 3: Docker Containers
-â”‚   â”œâ”€â”€ README.md                           # Docker architecture & command reference
-â”‚   â”œâ”€â”€ Dockerfile                          # Production-ready containerfile
-â”‚   â”œâ”€â”€ docker-compose.yml                  # Declarative orchestration file
-â”‚   â”œâ”€â”€ docker_commands.bat / .sh           # Reference execution scripts
-â”‚   â””â”€â”€ app/index.html                      # Sample web application served by container
-â”‚
-â”œâ”€â”€ Experiment-04-Ansible/                  # Ex 4: Ansible Automation
-â”‚   â”œâ”€â”€ README.md                           # Playbook guide, modules & idempotency demo
-â”‚   â”œâ”€â”€ hosts.ini / ansible.cfg             # Inventory and Ansible runtime settings
-â”‚   â”œâ”€â”€ setup.yml                           # Standard Ansible playbook from lab manual
-â”‚   â”œâ”€â”€ setup_windows.yml                   # Windows-adapted playbook
-â”‚   â””â”€â”€ simulate_ansible.py                 # Standalone Python runner simulating execution
-â”‚
-â”œâ”€â”€ Experiment-05-Jenkins/                  # Ex 5: Jenkins CI/CD Pipeline
-â”‚   â”œâ”€â”€ README.md                           # Pipeline architecture & Jenkins UI guide
-â”‚   â”œâ”€â”€ Jenkinsfile                         # Declarative CI/CD pipeline script
-â”‚   â”œâ”€â”€ pom.xml / Dockerfile                # Build descriptors for pipeline stages
-â”‚   â”œâ”€â”€ docker-compose-jenkins.yml          # Ready-to-run containerized Jenkins server
-â”‚   â””â”€â”€ src/main/java/.../DevOpsApp.java    # Source code tested in pipeline
-â”‚
-â”œâ”€â”€ Experiment-06-GitHub/                   # Ex 6: GitHub Cloud Push
-â”‚   â”œâ”€â”€ README.md                           # Account, PAT auth, and remote push guide
-â”‚   â”œâ”€â”€ HelloWorld.java                     # Application code from lab syllabus
-â”‚   â””â”€â”€ setup_and_push.bat / .sh            # Interactive automated Git push helpers
-â”‚
-â””â”€â”€ Experiment-07-Gradle/                   # Ex 7: Gradle Build System
-    â”œâ”€â”€ README.md                           # Gradle DSL reference & tasks guide
-    â”œâ”€â”€ build.gradle / settings.gradle      # Build script with application plugin
-    â”œâ”€â”€ build.bat / build.sh                # Build and execution helper scripts
-    â””â”€â”€ src/                                # Java source and unit test suites
+|-- docs/                                   # Official College Manuals & Expected Outputs
+|   |-- DTT lab manual 2026-27 final rec.pdf
+|   |-- DTT lab manual 2026-27.docx
+|   `-- DevOps_2026_27_Experiment_Outputs.docx
+|
+|-- Experiment-01-Git/                      # Ex 1: Git Version Control
+|   |-- README.md                           # Comprehensive guide & verified outputs
+|   |-- git_demo.sh                         # Linux/Git Bash automation script
+|   |-- git_demo.bat                        # Windows CMD automation script
+|   `-- sample-project/                     # Demo project with sample code & .gitignore
+|
+|-- Experiment-02-Maven/                    # Ex 2: Apache Maven
+|   |-- README.md                           # Step-by-step procedure & output logs
+|   |-- pom.xml                             # Configured Maven POM with plugins & dependencies
+|   |-- build.bat / build.sh                # 1-Click build & test runner scripts
+|   `-- src/                                # Application code (main) & unit tests (test)
+|
+|-- Experiment-03-Docker/                   # Ex 3: Docker Containers
+|   |-- README.md                           # Docker architecture & command reference
+|   |-- Dockerfile                          # Production-ready containerfile
+|   |-- docker-compose.yml                  # Declarative orchestration file
+|   |-- docker_commands.bat / .sh           # Reference execution scripts
+|   `-- app/index.html                      # Sample web application served by container
+|
+|-- Experiment-04-Ansible/                  # Ex 4: Ansible Automation
+|   |-- README.md                           # Playbook guide, modules & idempotency demo
+|   |-- hosts.ini / ansible.cfg             # Inventory and Ansible runtime settings
+|   |-- setup.yml                           # Standard Ansible playbook from lab manual
+|   |-- setup_windows.yml                   # Windows-adapted playbook
+|   `-- simulate_ansible.py                 # Standalone Python runner simulating execution
+|
+|-- Experiment-05-Jenkins/                  # Ex 5: Jenkins CI/CD Pipeline
+|   |-- README.md                           # Pipeline architecture & Jenkins UI guide
+|   |-- Jenkinsfile                         # Declarative CI/CD pipeline script
+|   |-- pom.xml / Dockerfile                # Build descriptors for pipeline stages
+|   |-- docker-compose-jenkins.yml          # Ready-to-run containerized Jenkins server
+|   `-- src/main/java/.../DevOpsApp.java    # Source code tested in pipeline
+|
+|-- Experiment-06-GitHub/                   # Ex 6: GitHub Cloud Push
+|   |-- README.md                           # Account, PAT auth, and remote push guide
+|   |-- HelloWorld.java                     # Application code from lab syllabus
+|   `-- setup_and_push.bat / .sh            # Interactive automated Git push helpers
+|
+`-- Experiment-07-Gradle/                   # Ex 7: Gradle Build System
+    |-- README.md                           # Gradle DSL reference & tasks guide
+    |-- build.gradle / settings.gradle      # Build script with application plugin
+    |-- build.bat / build.sh                # Build and execution helper scripts
+    `-- src/                                # Java source and unit test suites
 ```
 
 ---
 
-## ðŸ’» Prerequisites & Environment Setup
+## 💻 Prerequisites & Environment Setup
 
 ### 1. Git Installation
 - **Windows:** Download and install from [git-scm.com](https://git-scm.com/download/win).
@@ -155,7 +155,7 @@ DevOpslab_exp/
 
 ---
 
-## ðŸŽ¯ Program Outcomes (PO) & Program Specific Outcomes (PSO) Mapping
+## 🎯 Program Outcomes (PO) & Program Specific Outcomes (PSO) Mapping
 
 On completion of this laboratory curriculum, the following outcomes are attained:
 
@@ -167,7 +167,7 @@ On completion of this laboratory curriculum, the following outcomes are attained
 
 ---
 
-## ðŸš€ How to Clone and Use This Repository
+## 🚀 How to Clone and Use This Repository
 
 ```bash
 # 1. Clone the repository
