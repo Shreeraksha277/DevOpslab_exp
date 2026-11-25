@@ -144,7 +144,14 @@ git switch -c feature-demo
 git branch
 git status
 ```
-
+git branch b1
+git checkout b1
+//make the chenges in the file
+git add .
+git commit -m "b1 chnaged"
+//to same for branch b2 and go to the main branch 
+git merge b1
+git merge b2
 ---
 
 ## 📊 Expected Terminal Output
